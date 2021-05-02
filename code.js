@@ -196,5 +196,27 @@ function sumUntil(array, index) {
                      undefined
                      shortestLongest(["hi", "cat", "hello"])
                      (2) ["hi", "hello"]
-                     
+                     //Q18
+                     function multiplyBy(array, number) {
+                        for(i=0; i<array.length; i++){
+                        array[i]= array[i]*number;
+                        }
+                        return array;
+                        }
+                        undefined
+                        multiplyBy([1, 5, 4, 3], 2)
+                        (4) [2, 10, 8, 6]
+                        //Q19
+                        function multiplyByIndex(array) {
+                            for(i=0;i<array.length;i++){
+                            array[i]=array[i]*i 
+                            }
+                            return array
+                            }
+                            undefined
+                            multiplyByIndex([1, 5, 4, 3])
+                            (4) [0, 5, 8, 9]
+                            //Q20
+                            
+
 
