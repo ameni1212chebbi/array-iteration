@@ -59,4 +59,16 @@ function sumUntil(array, index) {
     for (i=index;i>=0;i--){
     result = result + array[i]}
     return result;}
+    //Q8
+    function product(array) {
+        var i=0
+        result=1
+        for(i=0;i<array.length;i++){
+        result=result*array[i]
+        }
+        return result 
+        }
+        undefined
+        product([1, 2, 3])
+        6
 
